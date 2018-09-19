@@ -11,7 +11,7 @@ def summon_captain_planet (array)
   cap_planet
 end
 
-def long_planeteer_calls (array)
+ddef long_planeteer_calls (array)
    less_4 = 0
    less_4 = array.any? do |calls|
     if calls.length > 3
