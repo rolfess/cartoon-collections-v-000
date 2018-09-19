@@ -14,14 +14,9 @@ end
 def long_planeteer_calls (array)
    less_4 = 0
    less_4 = array.any? do |calls|
-    if calls.length > 3
-      true
-    else
-      false
-    end
-   end
+     calls.length > 4
+     end
 end
-
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
